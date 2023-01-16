@@ -1,0 +1,33 @@
+{
+  "name": "cdk-direct-credentials-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint --ext .ts src",
+    "lint:fix": "eslint --ext .ts --fix src"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "eslint": "^8.32.0",
+    "eslint-config-standard-with-typescript": "^27.0.1",
+    "eslint-plugin-import": "^2.27.4",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "^1.187.0",
+    "@aws-sdk/client-sts": "^3.245.0",
+    "@aws-sdk/credential-providers": "^3.245.0",
+    "aws-cdk": "^2.59.0",
+    "aws-sdk": "^2.1291.0"
+  }
+}
